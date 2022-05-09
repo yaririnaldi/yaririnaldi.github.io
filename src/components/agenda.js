@@ -34,7 +34,7 @@ class Agenda extends Component {
     }
 
     addToCalendar() {
-        var text = 'Yari & Liza Wedding';
+        var text = 'Liza & Yari Wedding';
         var date = '04062022'
         var location = 'Kediaman Mempelai Wanita'
         var googleCalendarUrl = `http://www.google.com/calendar/event?action=TEMPLATE&text=${text}&dates=${date}/${date}&location=${location}`;
@@ -43,24 +43,24 @@ class Agenda extends Component {
 
     render() {
         return(
-            <section className="agenda text-center"
+            <section className="agenda text-center overlay-dark white-text"
             style={{backgroundImage: "url('./res/agenda.jpeg')"}}>
-                <p data-aos="fade-down" data-aos-duration="1500">Saturday</p>
+                <p data-aos="fade-down" data-aos-duration="1500">Sabtu</p>
                 <div className="date">
                     <h2 data-aos="fade-right" data-aos-duration="1500">04</h2>
                     <div className="month-year" data-aos="fade-left" data-aos-duration="1500">
-                        <p>June</p>
+                        <p>Juni</p>
                         <p>2022</p>
                     </div>
                 </div>
-                <h3 data-aos="fade-up" data-aos-duration="1500">Reception</h3>
+                <h3 data-aos="fade-up" data-aos-duration="1500">Resepsi</h3>
                 <p data-aos="fade-up" data-aos-duration="1500">{ this.state.session }</p>
                 <button id="addToCalendarBtn" data-aos="fade-up" data-aos-duration="1500" 
-                onClick={this.addToCalendar}>Add to calender</button>
+                onClick={this.addToCalendar}>Tambah ke kalender</button>
                 <p data-aos="fade-up" data-aos-duration="1500">Kediaman Mempelai Wanita</p>
                 <div className="location" data-aos="fade-up" data-aos-duration="1500">
                     <p>Jl. Remaja, Ceger, Kec. Cipayung, Kota Jakarta Timur</p>
-                    <button onClick={this.openMap}>Open Map</button>
+                    <button onClick={this.openMap}>Buka Map</button>
                 </div>
             </section>
         );

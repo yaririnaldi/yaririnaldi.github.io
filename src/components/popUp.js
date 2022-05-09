@@ -58,7 +58,7 @@ class PopUp extends React.Component {
                 <h2 className="text-center" style={{ fontSize: '1.6rem'}}>{this.state.recipient}</h2>
                 <p>You are invited</p>
                 <p>To the Wedding Celebration of</p>
-                <p style={{ fontSize: '2rem', fontFamily: 'Homemade Apple' }}>Yari & Liza</p>
+                <p style={{ fontSize: '2rem', fontFamily: 'Homemade Apple' }}>Liza & Yari</p>
                 <p ref={this.waitTxtRef}><i>Please wait...</i></p>
                 <a ref={this.openBtnRef} onClick={this.playMusic} style={{ textDecoration: 'none', position: 'absolute', bottom: '14rem' }}>Open Invitation</a>
             </section>

@@ -14,7 +14,7 @@ class Meet extends Component {
                       alt=""></img>
                   <div className="article-content white-text">
                       <h3 className="section-subtitle">"Menemukanmu"</h3>
-                      <p>Ping!. Setelah 12 tahun lamanya tak pernah mendengar kabarnya lagi lalu dia datang dengan Sebuah panggilan awal dimulainya cerita baru hidup kita.</p>
+                      <p>Sekian lama sudah berlalu aku terpisah dari teman kecilku, Terus mencari biar musim berganti, setelah 12 tahun lamanya akhirnya ku menemukanmu lagi.</p>
                   </div>
               </article>
 
@@ -23,7 +23,7 @@ class Meet extends Component {
                       alt=""></img>
                   <div className="article-content white-text">
                       <h3 className="section-subtitle">"Senja"</h3>
-                      <p>Jarak telah membuat kita semakin jarang bertemu. Meski tetap saja setiap senja datang satu-satunya hal yang bisa memperlambat waktu adalah rindu.</p>
+                      <p>Masih saja kuteringat kata iringi kau pergi, Jadikan senja itu satu janji. Kau akan kembali untukku mengingatku walau aku jauh. Jarak telah membuat kita semakin jarang bertemu. Meski tetap saja setiap senja datang satu-satunya hal yang bisa memperlambat waktu adalah rindu.</p>
                   </div>
               </article>
 

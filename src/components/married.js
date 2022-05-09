@@ -12,15 +12,15 @@ class Married extends Component {
               <div className="married-content" data-aos="fade-up" data-aos-duration="1500">
                   <article className="couple">
                       <img className="circle" src="./res/pp.jpeg" alt=""></img>
-                      <h3 className="section-subtitle text-center">Yari Rinaldi S.Si.</h3>
-                      <p className="text-center">2<sup>nd</sup>son of<br></br>Agus Sugiarto and Rina Liana
+                      <h3 className="section-subtitle text-center">Rahmi Meyliza Putri, S.E.</h3>
+                      <p className="text-center">2<sup>nd</sup> daughter of<br></br>Baharuddin and Oliwati
                       </p>
                   </article>
                   <h3 className="section-subtitle-and text-center">&</h3>
                   <article className="couple">
                       <img className="circle" src="./res/kebo.jpeg" alt=""></img>
-                      <h3 className="section-subtitle text-center">Rahmi Meyliza Putri, S.E.</h3>
-                      <p className="text-center">2<sup>nd</sup> daughter of<br></br>Baharuddin and Oliwati 
+                      <h3 className="section-subtitle text-center">Yari Rinaldi S.Si.</h3>
+                      <p className="text-center">2<sup>nd</sup> son of<br></br>Agus Sugiarto and Rina Liana
                       </p>
                   </article>
               </div>

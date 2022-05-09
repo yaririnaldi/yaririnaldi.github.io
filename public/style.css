@@ -250,8 +250,8 @@ article {
 .agenda button {
     margin-top: .5rem;
     background-color: transparent;
-    border: 1px solid blue;
-    color: blue;
+    border: 2px solid white;
+    color: white;
     padding: .5rem;
     cursor: pointer;
 }
